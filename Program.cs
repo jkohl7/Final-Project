@@ -131,9 +131,9 @@ namespace NorthwindConsole
                          Console.WriteLine("Choose the product to edit:");
                         var db = new NorthwindConsole_32_JMKContext();
                         var product = db.Products.OrderBy(p => p.ProductName);
-                        if (product != null)
+                        foreach (var item in product)
                         {
-                            //add edit
+                            Console.WriteLine($"{item.ProductName}");
                         }
 
                         
@@ -160,13 +160,17 @@ namespace NorthwindConsole
                         if (choose == "1"){
                             foreach (var item in query)
                         {
+                            if (item.Discontinued == true){
                             Console.WriteLine($"{item.ProductName}");
+                            }
                         }
                         }
                         if (choose == "2"){
                              foreach (var item in query)
                         {
+                            if (item.Discontinued == false){
                             Console.WriteLine($"{item.ProductName}");
+                            }
                         }
 
                         }

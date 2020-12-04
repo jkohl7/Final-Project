@@ -92,3 +92,16 @@
 2020-12-04 14:27:58.4191|INFO|NorthwindConsole.Program|Option 1 selected
 2020-12-04 14:28:01.7143|INFO|NorthwindConsole.Program|Option 8 selected
 2020-12-04 14:28:02.9454|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 14:44:13.3068|INFO|NorthwindConsole.Program|Program started
+2020-12-04 14:44:14.8845|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 14:44:17.9554|INFO|NorthwindConsole.Program|Option 8 selected
+2020-12-04 14:44:19.7788|INFO|NorthwindConsole.Program|Option 6 selected
+2020-12-04 14:44:22.3872|INFO|NorthwindConsole.Program|Option 1 selected
+2020-12-04 14:44:23.0851|INFO|NorthwindConsole.Program|Option 2 selected
+2020-12-04 14:44:25.1161|ERROR|NorthwindConsole.Program|CategoryName : YO - Enter the name fool!
+2020-12-04 14:44:27.2767|INFO|NorthwindConsole.Program|Option 3 selected
+2020-12-04 14:44:29.2662|INFO|NorthwindConsole.Program|CategoryId 6 selected
+2020-12-04 14:44:30.8344|INFO|NorthwindConsole.Program|Option 4 selected
+2020-12-04 14:44:32.4119|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 14:44:34.0024|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 14:44:34.0024|INFO|NorthwindConsole.Program|Program ended
