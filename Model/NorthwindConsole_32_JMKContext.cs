@@ -292,7 +292,12 @@ namespace NorthwindConsole.Model
             OnModelCreatingPartial(modelBuilder);
         }
 
-       
+        public void EditProduct(Product UpdatedProduct)
+        {
+            Product product = this.Products.Find(UpdatedProduct.ProductId);
+            product.ProductName = UpdatedProduct.ProductName;
+            this.SaveChanges();
+        }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }

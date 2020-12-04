@@ -123,10 +123,18 @@ namespace NorthwindConsole
                     }
                      else if (choice == "5")
                     {
+                        
 
 
                     } else if (choice == "6")
                     {
+                         Console.WriteLine("Choose the product to edit:");
+                        var db = new NorthwindConsole_32_JMKContext();
+                        var product = db.Products.OrderBy(p => p.ProductName);
+                        if (product != null)
+                        {
+                            //add edit
+                        }
 
                         
                     } else if (choice == "7")
