@@ -121,6 +121,32 @@ namespace NorthwindConsole
                             }
                         }
                     }
+                     else if (choice == "5")
+                    {
+
+
+                    } else if (choice == "6")
+                    {
+
+                        
+                    } else if (choice == "7")
+                    {
+                        var db = new NorthwindConsole_32_JMKContext();
+                        var query = db.Products.OrderBy(p => p.ProductName);
+                        Console.WriteLine($"{query.Count()} records returned");
+
+                         foreach (var item in query)
+                        {
+                            Console.WriteLine($"{item.ProductName} SupplierID: {item.SupplierId} CategoryId: {item.CategoryId} QuantityPerUnit: {item.QuantityPerUnit} UnitPrice: {item.UnitPrice} UnitsInStock: {item.UnitsInStock} UnitsOnOrder: {item.UnitsOnOrder} ReorderLevel: {item.ReorderLevel} Discontinued: {item.Discontinued} ");
+                        }
+
+                        
+                    } else if (choice == "8")
+                    {
+
+                        
+                    }
+                
                     Console.WriteLine();
 
                 } while (choice.ToLower() != "q");

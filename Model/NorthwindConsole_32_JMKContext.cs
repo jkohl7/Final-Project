@@ -292,6 +292,8 @@ namespace NorthwindConsole.Model
             OnModelCreatingPartial(modelBuilder);
         }
 
+       
+
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

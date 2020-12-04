@@ -64,3 +64,19 @@
 2020-12-04 13:01:52.8620|INFO|NorthwindConsole.Program|Program ended
 2020-12-04 13:05:01.1673|INFO|NorthwindConsole.Program|Program started
 2020-12-04 13:05:05.0778|INFO|NorthwindConsole.Program|Option 9 selected
+2020-12-04 13:10:05.0617|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 13:10:05.0703|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 13:10:14.2868|INFO|NorthwindConsole.Program|Program started
+2020-12-04 13:10:17.0469|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 13:12:03.5115|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 13:12:03.5214|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 13:12:12.0018|INFO|NorthwindConsole.Program|Program started
+2020-12-04 13:12:13.0404|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 13:13:37.4552|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 13:13:37.4552|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 13:13:53.0701|INFO|NorthwindConsole.Program|Program started
+2020-12-04 13:13:54.9556|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 13:15:47.8542|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 13:15:47.8635|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 13:15:57.3238|INFO|NorthwindConsole.Program|Program started
+2020-12-04 13:15:59.2316|INFO|NorthwindConsole.Program|Option 7 selected
