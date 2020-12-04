@@ -151,7 +151,25 @@ namespace NorthwindConsole
                         
                     } else if (choice == "8")
                     {
+                         var db = new NorthwindConsole_32_JMKContext();
+                        var query = db.Products.OrderBy(p => p.ProductName);
+                        Console.WriteLine($"{query.Count()} records returned");
+                        Console.WriteLine("Do you want to view (1) Discontinued products or (2) Active products?");
+                        string choose = Console.ReadLine();
 
+                        if (choose == "1"){
+                            foreach (var item in query)
+                        {
+                            Console.WriteLine($"{item.ProductName}");
+                        }
+                        }
+                        if (choose == "2"){
+                             foreach (var item in query)
+                        {
+                            Console.WriteLine($"{item.ProductName}");
+                        }
+
+                        }
                         
                     }
                 
