@@ -80,3 +80,11 @@
 2020-12-04 13:15:47.8635|INFO|NorthwindConsole.Program|Program ended
 2020-12-04 13:15:57.3238|INFO|NorthwindConsole.Program|Program started
 2020-12-04 13:15:59.2316|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 14:03:18.4138|INFO|NorthwindConsole.Program|Program started
+2020-12-04 14:03:19.9897|INFO|NorthwindConsole.Program|Option 1 selected
+2020-12-04 14:03:24.6292|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 14:03:24.6292|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 14:03:28.0715|INFO|NorthwindConsole.Program|Program started
+2020-12-04 14:03:28.9764|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 14:03:32.3099|INFO|NorthwindConsole.Program|Option q selected
+2020-12-04 14:03:32.3187|INFO|NorthwindConsole.Program|Program ended
