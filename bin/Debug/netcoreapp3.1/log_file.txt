@@ -105,3 +105,5 @@
 2020-12-04 14:44:32.4119|INFO|NorthwindConsole.Program|Option 7 selected
 2020-12-04 14:44:34.0024|INFO|NorthwindConsole.Program|Option q selected
 2020-12-04 14:44:34.0024|INFO|NorthwindConsole.Program|Program ended
+2020-12-04 19:17:51.9619|INFO|NorthwindConsole.Program|Program started
+2020-12-04 19:17:53.0301|INFO|NorthwindConsole.Program|Option 7 selected

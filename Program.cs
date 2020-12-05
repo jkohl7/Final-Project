@@ -123,7 +123,28 @@ namespace NorthwindConsole
                     }
                      else if (choice == "5")
                     {
-                        
+                        Product product = new Product();
+                        Console.WriteLine("Enter Product Name:");
+                        product.ProductName = Console.ReadLine();
+                        Console.WriteLine("Enter the Supplier ID:");
+                        product.SupplierId = Console.Read();
+                        Console.WriteLine("Enter the Category ID:");
+                        product.CategoryId = Console.Read();
+                        Console.WriteLine("Enter the Quantity Per Unit:");
+                        product.QuantityPerUnit = Console.ReadLine();
+                        Console.WriteLine("Enter the Unit Price:");
+                        product.UnitPrice = Console.Read();
+                        Console.WriteLine("Enter the Units In Stock:");
+                        product.UnitsInStock = Console.Read();
+                        Console.WriteLine("Enter the Units On Order:");
+                        product.UnitsOnOrder = Console.Read();
+                        Console.WriteLine("Enter the Reorder Level:");
+                        product.ReorderLevel = Console.Read();
+
+                        Console.WriteLine("The product was added");
+
+
+                    
 
 
                     } else if (choice == "6")
@@ -135,6 +156,10 @@ namespace NorthwindConsole
                         {
                             Console.WriteLine($"{item.ProductName}");
                         }
+                          string namedProduct = Console.ReadLine();
+                          Console.WriteLine("What is the new name of the product?");
+                          string newNamedProduct = Console.ReadLine();
+
 
                         
                     } else if (choice == "7")
