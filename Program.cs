@@ -30,6 +30,7 @@ namespace NorthwindConsole
                     Console.WriteLine("6) Edit Product");
                     Console.WriteLine("7) Display Product");
                     Console.WriteLine("8) Display Product records");
+                    
                   
                     Console.WriteLine("\"q\" to quit");
                     choice = Console.ReadLine();
@@ -40,10 +41,7 @@ namespace NorthwindConsole
                     {
                         var db = new NorthwindConsole_32_JMKContext();
                         var query = db.Categories.OrderBy(p => p.CategoryName);
-
-                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"{query.Count()} records returned");
-                        Console.ForegroundColor = ConsoleColor.Magenta;
                         foreach (var item in query)
                         {
                             Console.WriteLine($"{item.CategoryName} - {item.Description}");
@@ -75,7 +73,7 @@ namespace NorthwindConsole
                             else
                             {
                                 logger.Info("Validation passed");
-                                // TODO: save category to db
+                                
                             }
                         }
                         if (!isValid)
@@ -92,12 +90,10 @@ namespace NorthwindConsole
                         var query = db.Categories.OrderBy(p => p.CategoryId);
 
                         Console.WriteLine("Select the category whose products you want to display:");
-                        Console.ForegroundColor = ConsoleColor.DarkRed;
                         foreach (var item in query)
                         {
                             Console.WriteLine($"{item.CategoryId}) {item.CategoryName}");
                         }
-                        Console.ForegroundColor = ConsoleColor.White;
                         int id = int.Parse(Console.ReadLine());
                         Console.Clear();
                         logger.Info($"CategoryId {id} selected");
