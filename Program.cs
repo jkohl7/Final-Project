@@ -139,10 +139,6 @@ namespace NorthwindConsole
 
                         Console.WriteLine("The product was added");
 
-
-                    
-
-
                     } else if (choice == "6")
                     {
                          Console.WriteLine("Choose the product to edit:");

@@ -107,3 +107,9 @@
 2020-12-04 14:44:34.0024|INFO|NorthwindConsole.Program|Program ended
 2020-12-04 19:17:51.9619|INFO|NorthwindConsole.Program|Program started
 2020-12-04 19:17:53.0301|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 19:43:44.1556|INFO|NorthwindConsole.Program|Program started
+2020-12-04 19:43:45.3467|INFO|NorthwindConsole.Program|Option 7 selected
+2020-12-04 19:43:48.1562|INFO|NorthwindConsole.Program|Option 1 selected
+2020-12-04 19:43:51.3144|INFO|NorthwindConsole.Program|Option 3 selected
+2020-12-04 19:44:15.6541|ERROR|NorthwindConsole.Program|Input string was not in a correct format.
+2020-12-04 19:44:15.6636|INFO|NorthwindConsole.Program|Program ended
